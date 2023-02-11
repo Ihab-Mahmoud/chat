@@ -3,7 +3,7 @@ import { Register } from './pages/register'
 import { Login } from './pages/login'
 import { Home } from './pages/home'
 import { Error } from './pages/Error'
-import { BrowserRouter as Router, Navigate, Route, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import { useContext } from 'react'
 import { AuthContext } from "./context/authcontext"
 
